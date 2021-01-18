@@ -11,15 +11,12 @@ Zip dir is a small library for zipping directories recursively into zip files.
 Either obtain the binary data
 
 ```python
-    zipBits = zipDirectory( '/path/to/directory' )
+    zipBits = zip_directory('/path/to/directory')
 ```
 
 
 or else, specify an output file
 
 ```python
-    zipDirectory( '/path/to/directory', outputFile = '/my/file.zip' )
+    zip_directory('/path/to/directory', outputFile = '/my/file.zip')
 ```
-
-
-Enjoy!
